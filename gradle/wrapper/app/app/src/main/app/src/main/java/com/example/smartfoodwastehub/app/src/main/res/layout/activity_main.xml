@@ -1,0 +1,28 @@
+LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/inputFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter food surplus/waste"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Entry"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No entries yet"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+</LinearLayout>
